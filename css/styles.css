@@ -8,6 +8,7 @@
 
 html {
     scroll-behavior: smooth;
+    background-color: rgb(252, 251, 240);
 }
 
 a {
@@ -16,7 +17,7 @@ a {
 }
 
 .btn:hover {
-    background-color: orangered;
+    background-color: rgb(242, 143, 132);
 }
 
 .hero {
@@ -48,7 +49,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: rgb(30, 196, 182);
+    color: rgb(242, 143, 132);
 }
 
 .body-margin {
@@ -84,7 +85,7 @@ nav ul li a:hover {
 }
 
 .detail a {
-    background: salmon;
+    background: rgb(245, 173, 165);
     padding: 10px 18px;
     text-decoration: none;
     font-weight: bold;
@@ -291,7 +292,7 @@ nav ul li a:hover {
 }
 
 .contact-form-submit {
-    background-color: salmon;
+    background-color: rgb(245, 173, 165);
     margin-top: 10px;
     width: 10rem;
     height: 48px;
@@ -327,7 +328,7 @@ footer {
     justify-content: center;
     bottom: 0;
     left: 0;
-    background-color: darksalmon;
+    background-color: rgb(245, 198, 170);
     border-top: 2px solid rgb(255, 255, 255);
     width: 100%;
     margin-top: 100px;
