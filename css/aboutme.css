@@ -14,6 +14,10 @@ a {
     text-decoration: none;
 }
 
+.btn:hover {
+    background-color: rgb(242, 143, 132);
+}
+
 .body-margin {
     margin: 0;
 }
