@@ -9,7 +9,6 @@
     </head>
     <body>
         <div class="hero">
-            <button id="dark-mode">Dark Mode</button>
             <nav>
                 <a href="/">
                     <div class="logo-header">
@@ -21,6 +20,7 @@
                     <li><a href="#projects-section">Projects</a></li>
                     <li><a href="/pages/about-me.html">About Me</a></li>
                     <li><a href="/pages/resume.html">Resume</a></li>
+                    <a class="btn" id="dark-mode">Dark Mode</a>
                 </ul>
             </nav>
             <div class="body-margin">
@@ -108,22 +108,25 @@
                 </section>
                 <div class="contact-me">
                     <h2>Let's Chat!</h2>
-                    <div class="contact-me-fname-email">
-                        <input
-                            type="text"
-                            placeholder="Name"
-                            name="name"
-                            id="name-input"
-                        />
-                        <input
-                            type="email"
-                            placeholder="Email"
-                            name="email"
-                            id="email-input"
-                        />
+                    <div class="form-wrapper">
+                        <div class="contact-me-fname-email">
+                            <input
+                                type="text"
+                                placeholder="Name"
+                                name="name"
+                                id="name-input"
+                            />
+                            <input
+                                type="email"
+                                placeholder="Email"
+                                name="email"
+                                id="email-input"
+                            />
+                        </div>
+
+                        <textarea placeholder="Send me a message!"></textarea>
                     </div>
 
-                    <textarea placeholder="Send me a message!"></textarea>
                     <input
                         id="submit-form-button"
                         class="btn contact-form-submit"
