@@ -38,8 +38,8 @@ $("#dark-mode").click(function () {
                 $(this).css("background", "");
             }
         );
-        $(".contact-me").css("background-color", "");
-        $(".contact-me input").css("background-color", "");
-        $(".contact-me textarea").css("background-color", "");
+        $(".contact-me").css("background-color", "#050403");
+        $(".contact-me input").css("background-color", "#111010");
+        $(".contact-me textarea").css("background-color", "#111010");
     }
 });
